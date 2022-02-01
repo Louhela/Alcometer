@@ -29,7 +29,6 @@ function App() {
     else{
       setResult(0)
     }
-
   }
 
   return (
@@ -103,7 +102,7 @@ function App() {
       <div>
         <label>Gender</label>
         <input type="radio" name="gender" value="male" defaultChecked onChange={e => setGender(e.target.value)}/><label>Male</label>
-        <input type="radio" name="gender" value="female" onChange={e => setGender(e.target.value)}/><label>female</label>
+        <input type="radio" name="gender" value="female" onChange={e => setGender(e.target.value)}/><label>Female</label>
       </div>
       <div>
         <output>{result.toFixed(2)}</output>

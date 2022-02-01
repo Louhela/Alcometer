@@ -1,13 +1,13 @@
 @font-face{
-  font-family: "Seven Segment";
+  font-family: "Seven_Segment";
   src: url('fonts/Seven_Segment.ttf'),
 }
+
 body{
   background-color: #161616;
-}
-*{
   box-sizing: border-box;
 }
+
 div{
   color: #f5f5f5;
   text-align: center;
@@ -15,8 +15,7 @@ div{
 }
 
 output{
-  font-size: 4rem;
+  font-size: 6rem;
   color: red;
   font-family: Seven Segment;
- 
 }
